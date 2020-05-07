@@ -26,6 +26,7 @@ type A =
   , g :: Number -> Number -> Number
   , h :: Fn2 Number Number Number
   , i :: Fn2 Number (Fn2 Number Number Number) Number
+  , j :: Int
   }
 
 type VariantTest = Variant

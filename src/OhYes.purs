@@ -32,6 +32,9 @@ class HasJSRep a <= HasTSRep a where
 instance numberHasTSRep :: HasTSRep Number where
   toTSRep _ = "number"
 
+instance intHasTSRep :: HasTSRep Int where
+  toTSRep _ = "number"
+
 instance stringHasTSRep :: HasTSRep String where
   toTSRep _ = "string"
 
